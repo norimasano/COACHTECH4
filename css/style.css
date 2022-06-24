@@ -160,22 +160,46 @@ a {
   font-size: 20px;
   font-family: 'Indie Flower', cursive;
   padding-top: 20px;
+  margin: 10px;
 }
 
 .service_ttl2 {
   font-size: 30px;
   font-weight: bold;
+  margin: 10px;
 }
 
 .box {
   display: grid;
-  grid-template-rows: 200px 200px;
+  grid-template-rows: 300px 300px;
   grid-template-columns: 1fr 1fr;
 }
 
 .box1 {
   grid-column: 1/2;
   grid-row: 1/3;
+  background-color: darkmagenta;
+  text-align: center;
+  padding: 20px;
+  }
+
+.box1 img {
+  width: 50%;
+  background-color: darkmagenta;
+  background-position: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.box1_ttl {
+  font-size: 30px;
+}
+
+.box1_text {
+  font-size: 20px;
+  text-align: left;
+  padding: 30px;
+  margin: 20px;
 }
 
 .box2 {
@@ -183,8 +207,27 @@ a {
   grid-row: 1/2;
 }
 
+.box2 img {
+  width: 50%;
+}
+
+.box2_ttl {
+  font-size: 30px;
+  display: flex;
+}
+
+.box2_text {
+  font-size: 20px;
+  text-align: left;
+  padding: 30px;
+  margin: 20px;
+}
+
 .box3 {
   grid-column: 2/3;
   grid-row: 2/3;
 }
 
+.box3 img {
+  width: 50%;
+}
