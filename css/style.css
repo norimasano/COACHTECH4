@@ -150,7 +150,7 @@ a {
 .service {
   position: relative;
   top: 500px;
-  height: 500px;
+  height: 1000px;
   margin-left: 150px;
   margin-right: 150px;
 }
@@ -163,7 +163,7 @@ a {
   margin: 10px;
 }
 
-.service_ttl2 {
+.service_ttl2 { 
   font-size: 30px;
   font-weight: bold;
   margin: 10px;
@@ -184,50 +184,64 @@ a {
   }
 
 .box1 img {
-  width: 50%;
+  width: 30%;
   background-color: darkmagenta;
   background-position: center;
-  text-align: center;
   padding: 20px;
 }
 
 .box1_ttl {
   font-size: 30px;
+  color: white;
+  margin-top: 30px; 
 }
 
 .box1_text {
-  font-size: 20px;
+  font-size: 30px;
+  color: white;
   text-align: left;
   padding: 30px;
   margin: 20px;
+  margin-top: 30px;
+}
+
+
+.box_area {
+  display: flex;
 }
 
 .box2 {
   grid-column: 2/3;
   grid-row: 1/2;
+  background-color: rgb(142, 86, 142);
+  text-align: center;
+  padding: 20px;
 }
 
 .box2 img {
-  width: 50%;
+  width: 30%;
+  background-color: rgb(142, 86, 142);
+  margin-top: 10px;
+  margin-right: 300px;
 }
 
 .box2_ttl {
   font-size: 30px;
-  display: flex;
+  background-color: rgb(142, 86, 142);
 }
 
-.box2_text {
+/* .box2_text { 
   font-size: 20px;
   text-align: left;
   padding: 30px;
   margin: 20px;
-}
+}*/
 
-.box3 {
+/* .box3 {
   grid-column: 2/3;
   grid-row: 2/3;
-}
+} */
 
-.box3 img {
+/* .box3 img {
   width: 50%;
-}
+} */
