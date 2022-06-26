@@ -437,6 +437,7 @@ table th {
 /* recruit */
 
 .recruit {
+  background-size: cover;
   position: relative;
   top: 250px;
   height: 600px;
@@ -446,14 +447,18 @@ table th {
 .recruit_box {
   position: relative;
   display: flex;
-  /* margin-top: 200px; */
   justify-content: center;
   align-items: center
 }
 
 .recruit_text {
-  position: relative;
+  position: relative; 
 }
+
+.recruit_text img {
+  background-size: auto;
+}
+
 .recruit_ttl {
   position: absolute;
   font-size: 30px;
@@ -466,6 +471,10 @@ table th {
 
 .intervew_text {
   position: relative;
+}
+
+.intervew_text img {
+  background-size: auto;
 }
 
 .intervew_ttl {
