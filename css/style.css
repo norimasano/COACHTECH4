@@ -290,9 +290,9 @@ a {
 .blog {
   position: relative;
   top: 400px;
-  height: 800px;
+  height: 900px;
   background-color: lightgray;
-  background-size: cover;
+  /* background-size: cover; */
 }
 
 .blog_ttl {
@@ -393,12 +393,14 @@ a {
   font-family: 'Indie Flower', cursive;
   padding-top: 20px;
   margin-left: 150px;
+  margin-bottom: 20px;
 }
 
 .company_ttl2 {
   font-size: 30px;
   font-weight: bold;
   margin-left: 150px;
+  margin-bottom: 20px;
 }
 
 
@@ -406,7 +408,8 @@ a {
   display: flex;
   justify-content: center;
   top: 200px;
-  height: 500px;
+  height: 400px;
+  /* margin-bottom: 100px; */
   
   }
 
