@@ -1,9 +1,5 @@
 /* top */
 
-/* .main { 
-  max-width:960px;
-  margin: 0 auto;
-} */
 
 
 
@@ -437,26 +433,26 @@ table th {
 /* recruit */
 
 .recruit {
-  background-size: cover;
   position: relative;
   top: 250px;
   height: 600px;
-  
+  width: 100%;
 }
 
 .recruit_box {
   position: relative;
   display: flex;
-  justify-content: center;
-  align-items: center
+s
 }
 
 .recruit_text {
   position: relative; 
+ 
 }
 
 .recruit_text img {
   background-size: auto;
+  width: 50vw;
 }
 
 .recruit_ttl {
@@ -471,10 +467,12 @@ table th {
 
 .intervew_text {
   position: relative;
+
 }
 
 .intervew_text img {
   background-size: auto;
+  width: 50vw;
 }
 
 .intervew_ttl {
